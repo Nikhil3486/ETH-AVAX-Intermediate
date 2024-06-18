@@ -12,18 +12,10 @@ This project demonstrates the use of `require()`, `assert()`, and `revert()` fun
 
 ### Executing the program
 
-1. Open and create a Gitpod workspace and copy this code.
-2. Wait for npm to install Truffle (if the installation did not start automatically, enter `npm install -g truffle` on the terminal)
-3. Start the Truffle console by entering `truffle develop` on the terminal
-4. Enter `compile` and then `migrate` on the terminal
-5. Enter `let instance = await META.deployed()` so that you may interact with the smart contract using the object `instance`
-6. Play around with the contract using `instance.<functionName>(<argument>)` (For example: `instance.requireOddNumber(2)`)
-
-Note: 
-
-To check the value of `oddCount`, enter `(await instance.oddCount()).toString()`
-
-You may also make a simple async function (`let getoddCount = async() => (await instance.oddCount()).toString()`) so that you just need to call that function (`getoddCount()`) to get the value of `oddCount`
+1. Open a Remix IDE in a browser and copy this code.
+2. Then compile your contract.
+3. After compiling then deploy the contract.
+4. Now enter the values to check whether these `require()`, `assert()`, and `revert()` functions are working properly.
 
 ### Callable Variables and Functions
 
